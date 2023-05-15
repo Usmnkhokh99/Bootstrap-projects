@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- NavBAr -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-warning fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#" >Frontend Bootcamp</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDark"
+                aria-controls="navbarDark" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse show" id="navbarDark">
+                <ul class="navbar-nav me-auto mb-2 mb-xl-0 ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#enrollement">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Outline</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#java">Questions</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search Topic" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Top Box -->
+    <section class="bg-dark text-light p-5 text-sm-start" id="enrollement">
+        <div class="container">
+            <div class="row d-sm-flex py-5 align-items-center">
+                <div class="col-md-6" data-aos="fade-right"
+                data-aos-offset="500"
+                data-aos-easing="ease-in-sine">
+                    <h2>Welcome to <span class="text-warning">Frontend Bootcamp</span></h2>
+                    <p class="lead text-justify text-start">The demand for frontend developers continues to grow, making
+                        frontend courses an excellent option for individuals seeking to enter the tech industry or
+                        expand their skill set. </p>
+                    <button type="button" class="btn btn-warning btn-lg px-4 mt-4" data-bs-toggle="modal"
+                        data-bs-target="#enroll">Start the Enrollment</button>
+                </div>
+                <div class="col-md-6">
+                    <img class="w-50 img-fluid img-responsive d-none d-md-block ms-auto animate" src="developer.png" alt="" >
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="bg-primary text-white text-justify">
+        <div class="container">
+            <div class="row d-flex py-5 align-items-center">
+                <div class="col-md-6">
+                    <h2 class="">SignUp For Our Newsletter</h2>
+                </div>
+                <div class="input-group col-md-6 ms-auto" id="f-input">
+                    <input type="text" class="form-control" placeholder="Enter Email">
+                    <button class="btn btn-dark" type="button">Submit</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Learning with different persons -->
+    <section class="p-4" id="about">
+        <div class="container">
+            <div class="row d-flex py-5 g-3">
+                <div class="col-md card text-white text-center me-5 bg-dark" style="width: 18rem;">
+                    <div class="card-body">
+                        <i class="bi bi-laptop"></i>
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Nobis tenetur, blanditiis quidem nostrum amet eos. Nisi harum blanditiis obcaecati at ea
+                            sit, fugit amet id consequatur est similique accusantium consectetur?.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-md card text-center me-5 btn-warning" style="width: 18rem;">
+                    <div class="card-body">
+                        <i class="bi bi-laptop"></i>
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla labore quae
+                            perferendis nihil veritatis quas possimus consequatur odio minus, doloremque id sequi,
+                            suscipit odit rerum hic. Corrupti, quia quo! Totam!.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-md card text-center text-dark text-white bg-dark" style="width: 18rem;">
+                    <div class="card-body">
+                        <i class="bi bi-laptop"></i>
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nesciunt
+                            esse eos minus repellendus dolorem hic recusandae nobis nulla architecto? Beatae, quasi
+                            sapiente facere ipsum consequatur nostrum dolorem earum fugiat. </p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learn Javascript -->
+    <section class="container" id="java">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="javaaa.png" class="img-fluid img-responsive d-none d-md-block" alt="">
+            </div>
+            <div class="col-md-6 align-items-center justify-content-between ">
+                <div class="p-5">
+                    <h2 class="fs-2">Learn JavaScript Fundamentals</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis corporis consequuntur dolorem
+                        itaque debitis autem cumque aperiam eligendi commodi quo magni laborum odit laudantium, numquam
+                        iure quaerat non praesentium. Ad.</p>
+                    <p>Explicabo doloremque sed voluptatibus sapiente iure beatae maxime, non maiores deleniti voluptas
+                        magnam iusto, corrupti excepturi unde temporibus dolorem perferendis tempore adipisci?</p>
+                    <button class="btn btn-warning fs-5 my-3">More Info</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- React -->
+
+    <section class="p-5">
+        <div class="container bg-dark">
+            <div class="row">
+                <div class="col-md-6 text-white align-items-center justify-content-between p-5 bg-dark">
+                    <h1 class="">Learn <span class="text-warning">React</span> In the Most Easiest Way!</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab nostrum ad esse? Quos atque
+                        similique cum hic odio, cupiditate laudantium minus beatae doloremque delectus aspernatur,
+                        possimus aliquid sint vitae magni!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut sequi fugiat alias dolorum maiores
+                        repellendus impedit perferendis totam error, distinctio officia fuga deleniti repellat
+                        dignissimos labore quis similique quaerat voluptatem.</p>
+                    <a href="#" class="btn btn-warning mt-3">
+                        <i class="bi bi-play-circle"></i>
+                    </i> Check It Now!
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <img src="reee.png" class="img-fluid img-responsive" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Frequent Asked Questions -->
+
+    <section class="p-5">
+        <div class="container">
+            <div class="row">
+                <h1 class="text-center">Frequently Asked Questions</h1>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                How long it takes me to Complete the Course?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, repellendus dicta! Sunt exercitationem eius dicta laudantium, impedit minima quo rem, earum non placeat asperiores quas, ipsa ad! Facere, tempora odio?</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                Can I access the Course Anytime from Anywhere?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum autem ipsa animi voluptate ex odio voluptates beatae dolor non id aliquid sunt laboriosam reprehenderit architecto a eligendi, numquam omnis quaerat..</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                Is it Paid or Unpaid?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi illum inventore accusamus quidem aliquid doloremque ex, illo odit explicabo sunt a non unde vero. Aut omnis ex numquam aliquam quam.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  Foooter  -->
+
+    <footer class="bg-dark p-3 position-relative">
+        <div class="container">
+            <p class="lead text-center text-white">Copyright & copy: 2023 Frontend Bootcamp</p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-3">
+                <i class="bi bi-arrow-up-square h1"></i>
+            </a>
+        </div>
+    </footer>
+
+
+    <!-- Enroll Modal -->
+    <div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="enrollLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h4> Fill the form & We will reach you ASAP!</h4>
+
+                    <!-- Form In Modal-->
+
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

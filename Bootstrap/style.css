@@ -1,0 +1,17 @@
+#f-input{
+    width: 30%;
+}
+.animate {
+    animation: updown 1.4s ease-in-out infinite;
+  } 
+@keyframes updown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
